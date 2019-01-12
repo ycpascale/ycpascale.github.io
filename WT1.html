@@ -59,11 +59,18 @@
       .carousel-control.right {
         background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%)
       }
+      .carousel-indicators {
+        bottom: 0;
+      }
       .carousel-indicators li {
         border-color: orange;
+        background-color:peachpuff;
       }
       #goalsList li {
         padding-bottom: 8px;
+      }
+      hr.line {
+        border: 1px solid seagreen;
       }
 
       
@@ -81,15 +88,16 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#" id="navbarLogo">
+            <a class="navbar-brand" href="index.html" id="navbarLogo">
               <img src="logo5.PNG" height="50px">
             </a>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#thing">Work Term Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://ycpascale.github.io/#arrowTarget">About</a></li>
+                <li><a href="https://ycpascale.github.io/#WTPortfolio">Work Term Portfolio</a></li>
+                <li><a href="#contactSectionWT1">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -100,26 +108,20 @@
       <div class="col-sm-8">
         <div id="section1">    
             <h1>Overview</h1>
-            <p>Lorem ipsum dolor sit amet, a orci convallis, magna id. Luctus tincidunt. Ut sit mauris. Mus imperdiet leo.</p>
+            <p>This is an overview of my first co-op experience as a Monitoring & Analytics student at Canadian Solar Solutions Inc. from September 2018 to December 2018.</p>
             <hr>
         </div>
         <div id="section2"> 
             <h1>About the company</h1>
             <p>Canadian Solar Solutions Inc. is a global company based in Guelph, Ontario, Canada which engages in manufacturing solar photovoltaic (PV) modules and provides solar energy solutions worldwide. It offers solar cells, solar modules, solar power systems, off-grid home application system and other specialized solar products.</p>
             <p>The office located in Guelph has a manufacturing facility where solar cells, solar PV modules, etc. are manufactured. I had the opportunity to have a tour around the facility and witness the production of solar panels.</p>
-            <p>The department where I was assigned during my co-op (Operations and Maintenance) consists of people from different backgrounds: control room operators, system performance analysts, developers, engineers, etc. working closely together to provide monitoring, diagnostics and troubleshooting of solar plants by using one of their software, namely CSEye.</p>
+            <p>The department where I was assigned during my co-op (Operations and Maintenance, O&M) consists of people from different backgrounds: control room operators, system performance analysts, developers, engineers, etc. working closely together to provide monitoring, diagnostics and troubleshooting of solar plants by using one of their software, namely CSEye.</p>
+            <p>To learn more about Canadian Solar Operations and Maintenance., click here: <a href="https://www.canadiansolar.com/en/energy-solutions/om-services.html">https://www.canadiansolar.com/en/energy-solutions/om-services.html</a></p>
             <hr>
         </div>        
         <div id="section3">         
             <h1>Goals</h1>
             <p>For my first work term, I set 4 goals whose main purposes were to help focusing what I would like to achieve at the end of my work term and also enable me to track my progress. </p>
-           <!-- <p>The goals were:<p>
-            <ul id="goalsList">
-              <li>Use previous experience in C and Java to learn new language, Python and how web frameworks work, Django, to improve backend development skills </li>
-              <li>Acquire front-end development skills and learn how to use front- web development technologies, such as Angular together with HTML5/CSS3, JavaScript and bootstrap</li>
-              <li>Gain experience of working in a team of programmers and further develop my team work skills to benefit my future career.</li>
-              <li>Gain work experience in computer science field and understand on how projects are conducted, how programmers choose the tools to use and take steps to bring project to completion; and how each individual effort contributes to the success of the project</li>
-            </ul>-->
 
             <div style="padding-top:18px;">
               <ul class="nav nav-tabs">
@@ -162,12 +164,27 @@
         </div>
         <div id="section4">         
             <h1>Job Description</h1>
-            <p>Lorem ipsum dolor sit amet, blandit elementum eleifend. Ipsum eu mollis. Duis sed nec, sed at ante. Suscipit purus quis, donec justo. Erat eget. Cum non. Sit eget massa, at netus, suspendisse id congue. Consequat elit morbi. Dolor consequat, et nunc. Rutrum integer, volutpat mauris eu, duis pellentesque cursus. Malesuada orci, nonummy lacinia. At urna, lectus vitae.</p>
-            <p>Lorem ipsum dolor sit amet, blandit elementum eleifend. Ipsum eu mollis. Duis sed nec, sed at ante. Suscipit purus quis, donec justo. Erat eget. Cum non. Sit eget massa, at netus, suspendisse id congue. Consequat elit morbi. Dolor consequat, et nunc. Rutrum integer, volutpat mauris eu, duis pellentesque cursus. Malesuada orci, nonummy lacinia. At urna, lectus vitae.</p>
-            <p>Lorem ipsum dolor sit amet, blandit elementum eleifend. Ipsum eu mollis. Duis sed nec, sed at ante. Suscipit purus quis, donec justo. Erat eget. Cum non. Sit eget massa, at netus, suspendisse id congue. Consequat elit morbi. Dolor consequat, et nunc. Rutrum integer, volutpat mauris eu, duis pellentesque cursus. Malesuada orci, nonummy lacinia. At urna, lectus vitae.</p>
-            <p>Lorem ipsum dolor sit amet, blandit elementum eleifend. Ipsum eu mollis. Duis sed nec, sed at ante. Suscipit purus quis, donec justo. Erat eget. Cum non. Sit eget massa, at netus, suspendisse id congue. Consequat elit morbi. Dolor consequat, et nunc. Rutrum integer, volutpat mauris eu, duis pellentesque cursus. Malesuada orci, nonummy lacinia. At urna, lectus vitae.</p>
+            <p>My project at Canadian Solar Inc. was to develop an Operator Log page for auditing and NERC compliance purposes.</p>
+            <p>Control room operators monitor and troubleshoot events that are happening at different solar farm sites on a 24/7/365 basis.  </p>
+            <p>Hence, the Operator Log is mostly used by operators to record and keep track of events and interactions happening at different solar farm sites. And since they work on shifts, one operator can easily reviewed what happened in the previous shift through the Operator Log. Even though operators are the only ones able to enter new log, other member in the O&M department can use the Operator Log for auditing.</p>
+            <p>The Operator Log consists of two parts:
+              <ol>
+                <li>New Log:</li>
+                  <ul>
+                    <li>Only operators can create new event for different sites</li>
+                  </ul>
+                <li>Log History:</li>
+                  <ul>
+                      <li>Users(Regular users and Operators) can view all the logs from the previous date to the current date</li>
+                      <li>All users can filter the logs based on operator’s name, site, date and log description. They are also able to sort each column by ascending or descending order.</li>
+                      <li>Operators have additional features such as editing a log, create a log thread which groups all the related logs together.</li>
+                  </ul>
+              </ol>
+            </p>
+            <p>To implement the Operator Log, I used Python and Django framework for the backend and for the frontend, HTML5/CSS3 together with Bootstrap framework to develop the design of the page. JavaScript and JQuery were used to make the webpage responsive and send/receive data from server.</p>
+            <p>Below are two slideshows showing the Operator Log from a regular user's perspective and an operator's perspective.</p>
 
-                <h2>Non-Operators.....(slideshow)</h2>
+                <h3>Regular users' perspective(excl. Operators)</h3>
                 <div id="carouselNonOp" class="carousel slide" data-ride="carousel" data-interval="false">
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
@@ -180,18 +197,42 @@
                   <div class="carousel-inner">
               
                     <div class="item active">
-                      <img src="NewLog.PNG" style="width:100%;">
+                      <img src="NewLog.PNG" style="width:100%;">                      
+                      <div>
+                        <ul style="list-style-type:circle">
+                          <li>This picture shows how the New Log page will be displayed for normal users except for operators.</li> 
+                          <li>As for operators, there would be no error message box appearing and they will be allowed to submit a new log by providing a site and writing a description for the log.</li>
+                        </ul>
+                        <br>
+                      </div>
                     </div>
               
                     <div class="item">
                       <img src="LogHistoryNonOp.PNG" style="width:100%;">
+                      <div>
+                        <ul style="list-style-type:circle"></ul>
+                        <li>Regular users have accessed to the Log Audit(A list of all the previous edited versions of a log) and the Log Thread(A list of all the logs in a thread)</li>
+                        <li>Logs which have been edited at least once have <i class="fas fa-info-circle"></i> icon in the last column, the Action column.</li>
+                        <li>Logs which have a thread history have <i class="fas fa-history"></i> icon in the Action column</li>
+                        <li>Otherwise, last column cell will be empty</li>
+                          <ul>
+                            <li><i class="fas fa-info-circle"></i> Log Audit</li>
+                            <li><i class="fas fa-history"></i> Log Thread</li>
+                          </ul>
+                        </ul>
+                        <br> 
+                      </div>
                     </div>
                   
                     <div class="item">
                       <img src="ImageTimeLine.PNG" style="width:100%;">
-                      <p>
-                        vdvdsvdsvsdss
-                      </p>
+                      <div>
+                        <ul style="list-style-type:circle">
+                        <li>Upon selecting one of the icons, the Log Audit and Log Thread can be viewed in an appealing timeline format through a specialized view.</li>
+                        <li>Users can scroll through the timeline which contains by the latest log at the top. </li>
+                        </ul>
+                      </div>
+                      <br>
                     </div>                
                   </div>
               
@@ -206,13 +247,14 @@
                   </a>
                 </div>
 
-                <h2>Operators.....(slideshow)</h2>
+                <h3>Operators' perspective</h3>
                 <div id="carouselOp" class="carousel slide" data-ride="carousel" data-interval="false">
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
                     <li data-target="#carouselOp" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselOp" data-slide-to="1"></li>
                     <li data-target="#carouselOp" data-slide-to="2"></li>
+                    <li data-target="#carouselOp" data-slide-to="3"></li>
                   </ol>
               
                   <!-- Wrapper for slides -->
@@ -220,18 +262,48 @@
               
                     <div class="item active">
                       <img src="LogHistoryOp.PNG" style="width:100%;">
+                      <div>
+                      <ul style="list-style-type:circle">
+                        <li>Operators can edit logs, add new log to a thread and view the logs in a thread through the Log Thread</li>
+                        <li>Logs which are the latest log in a thread (see entry(1) in picture) <b>or</b> do not have a thread history yet (see entry(3)), contain the <i class="fas fa-plus"></i> icon in the Action column</li>
+                        <li>All logs which are in a thread (see entries (1) and (2)), contain the <i class="fas fa-history"></i> icon.</li>
+                        <li>All logs are editable by double clicking on the Description cell.</li>
+                      </ul>
+                      </div>
+                      <br>
                     </div>
               
                     <div class="item">
                       <img src="ImageEdit.PNG" style="width:100%;">
+                      <div>
+                        <ul style="list-style-type:circle">
+                          <li>This image shows the modal box for editing a log on double clicking on a Description cell.</li>
+                          <li>Operators can choose a new site and edit the log description.</li>
+                        </ul>
+                      </div>
+                      <br>
                     </div>
                   
                     <div class="item">
                       <img src="ImageThread.PNG" style="width:100%;">
-                      <p>
-                        vdvdsvdsvsdss
-                      </p>
-                    </div>            
+                      <div>
+                        <ul style="list-style-type:circle">
+                          <li>This image shows the modal box for starting a thread or adding a log to an existing thread.</li>
+                        </ul>
+                      </div>
+                      <br>
+                    </div> 
+
+                    <div class="item">
+                        <img src="ImageTimeLineOp.PNG" style="width:100%;">
+                        <div>
+                          <ul style="list-style-type:circle">
+                            <li>Operators can view the Log Thread in the same timeline format through a specialized view.</li>
+                            <li>The additional feature allows the operators to easily add a log to the thread while browsing through the Log Thread.</li>
+                          </ul>
+                        </div>
+                        <br>
+                    </div>          
                   </div>
               
                   <!-- Left and right controls -->
@@ -248,9 +320,16 @@
         </div>      
         <div id="section5">         
           <h1>Conclusion</h1>
-          <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-          <p>Lorem ipsum dolor sit amet, blandit elementum eleifend. Ipsum eu mollis. Duis sed nec, sed at ante. Suscipit purus quis, donec justo. Erat eget. Cum non. Sit eget massa, at netus, suspendisse id congue. Consequat elit morbi. Dolor consequat, et nunc. Rutrum integer, volutpat mauris eu, duis pellentesque cursus. Malesuada orci, nonummy lacinia. At urna, lectus vitae.</p>
-          <p>Lorem ipsum dolor sit amet, blandit elementum eleifend. Ipsum eu mollis. Duis sed nec, sed at ante. Suscipit purus quis, donec justo. Erat eget. Cum non. Sit eget massa, at netus, suspendisse id congue. Consequat elit morbi. Dolor consequat, et nunc. Rutrum integer, volutpat mauris eu, duis pellentesque cursus. Malesuada orci, nonummy lacinia. At urna, lectus vitae.</p>
+          <p>During these 4 months, I had the opportunity to apply existing knowledge and skills I acquired from my courses and develop new skills, learn new web technologies which will be beneficial for my next co-op terms and future career.</p>
+        </div>
+
+        <div id="section6" style="padding-bottom:30px;">
+          <h1>Acknowledgments</h1>
+          <p>I would like to thank Canadian Solar Solution Inc. for giving me the opportunity to enhance and develop new skills.</p>
+          <p>A big thank you to the O&M Team for having me during these 4 months.</p>
+          <p>Special thanks to my Supervisor, Didier Thevenard and two of my co-workers, Kuber Singh and Nirav Mehta for providing help and support whenever needed, during my work term.
+          </p>
+
         </div>
       </div>
 
@@ -261,12 +340,13 @@
             <li><a href="#section3">Goals</a></li>
             <li><a href="#section4">Job Description</a></li>
             <li><a href="#section5">Conclusion</a></li>
+            <li><a href="#section5">Acknowledgments</a></li>
           </ul>
         </nav>
     </div>
   </div>
 
-  <div style="background-color:rgba(255,238,230,1)">
+  <div id="contactSectionWT1" style="background-color:rgba(255,238,230,1)">
       <div class="container">
         <hr class="line">
         <div class="row" style="margin-bottom:20px;">
